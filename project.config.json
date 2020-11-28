@@ -1,11 +1,17 @@
 {
   "description": "项目配置文件",
   "packOptions": {
-    "ignore": []
+    "ignore": [
+      {
+        "type": "folder",
+        "value": "需求分析"
+      }
+    ]
   },
   "setting": {
     "enhance": true,
-    "urlCheck": false
+    "urlCheck": false,
+    "scopeDataCheck": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
@@ -18,7 +24,9 @@
   "debugOptions": {
     "hidedInDevtools": []
   },
-  "scripts": {},
+  "scripts": {
+    "beforeCompile": ""
+  },
   "condition": {
     "plugin": {
       "list": []
@@ -34,6 +42,12 @@
         {
           "name": "寄信",
           "pathName": "miniprogram/pages/send_letter/send_letter",
+          "scene": null,
+          "query": ""
+        },
+        {
+          "name": "我的",
+          "pathName": "miniprogram/pages/me/me",
           "scene": null
         }
       ]
