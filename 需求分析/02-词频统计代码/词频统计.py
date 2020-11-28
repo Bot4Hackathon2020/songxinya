@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*- 
 # @Time : 2020/11/28 15:01 
 # @Author : Payiz 
-# @File : demo.py
-# @project: 项目名称
+# @File : 词频统计.py
+# @project: 需求分析
 # pip --default-timeout=100 install -i https://pypi.tuna.tsinghua.edu.cn/simple XXX
 # -----------------------------------
 
