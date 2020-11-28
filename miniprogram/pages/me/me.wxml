@@ -1,2 +1,105 @@
 <!--miniprogram/pages/me/me.wxml-->
+<view class="header-container" bindtap="bindcenter">
+  <image class='header-bg' src='../../images/image/background@2x.png'></image>
+  <view class='userContent'>
+    <image bindtap='changePhotoImg' class="header-avatar" src="{{teachers.headimg}}"></image>
+    <view class="txt">
+      <text class="header-nickname">{{teachers.name}}</text>
+      <text class="header-nicktel">{{teachers.mphone}}</text>
+    </view>
+    <view class='header-userInfo' bindcenter="personcenter">
+      <!--进入个人中心开始-->
+      <image src="../../images/image/you@2x.png"></image>
+      <!--进入个人中心结束-->
+    </view>
+  </view>
+</view>
 
+<!--下边分条目-->
+
+<view class="themes">
+  <view class="li" bindtap="bindcard">
+    <view class="icon">
+      <image src="../../images/image/mingpian@2x.png"></image>
+    </view>
+    <view class="right">
+      <view class="txt">
+        <view class="tit">我的名片</view>
+        <view class="xx">用于编辑您的个人信息</view>
+      </view>
+      <view class="link">
+        <image src="../../images/image/you@2x.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="li" bindtap="bindstudent">
+    <view class="icon">
+      <image src="../../images/image/xueyuan@2x.png"></image>
+    </view>
+    <view class="right">
+      <view class="txt">
+        <view class="tit">我的学员</view>
+        <view class="xx">全面掌握您的学员状态</view>
+      </view>
+      <view class="link">
+        <image src="../../images/image/you@2x.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="li" bindtap="bindmoney">
+    <view class="icon">
+      <image src="../../images/image/shouru@2x.png"></image>
+    </view>
+    <view class="right">
+      <view class="txt">
+        <view class="tit">我的收入</view>
+        <view class="xx">实时查看你的收入情况</view>
+      </view>
+      <view class="link">
+        <image src="../../images/image/you@2x.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="li" bindtap="bindday">
+    <view class="icon">
+      <image src="../../images/image/qingjia@2x.png"></image>
+    </view>
+    <view class="right">
+      <view class="txt">
+        <view class="tit">我的请假</view>
+        <view class="xx">专业的客服解答您的问题</view>
+      </view>
+      <view class="link">
+        <image src="../../images/image/you@2x.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="li" bindtap="bindmessage">
+    <view class="icon">
+      <image src="../../images/image/xiaoxi@2x.png"></image>
+    </view>
+    <view class="right">
+      <view class="txt">
+        <view class="tit">消息通知</view>
+        <view class="xx">专业的客服解答您的问题</view>
+      </view>
+      <view class="link">
+        <image src="../../images/image/you@2x.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="li" bindtap="bindidea">
+    <view class="icon">
+      <image src="../../images/image/wenti@2x.png"></image>
+    </view>
+    <view class="right">
+      <view class="txt">
+        <view class="tit">意见反馈</view>
+        <view class="xx">有任何问题请及时反馈</view>
+      </view>
+      <view class="link">
+        <image src="../../images/image/you@2x.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
