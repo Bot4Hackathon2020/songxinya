@@ -5,7 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    parameter: {
+      'navbar': '1',
+      'return': '0',
+      'title': '个人中心',
+      'color': true,
+      'class': '0'
+    },
+    userInfo:{},
+    MyMenus:[],
+    isGoIndex:false,
+    iShidden:true,
+    isAuto:false,
+    switchActive:false,
+    loginType: app.globalData.loginType,
+    orderStatusNum:{},
+    promoter_price:0,
+    generalActive:false,
+    generalContent:{
+      promoterNum:'',
+      title:'您未获得推广权限'
+    }
   },
 
   /**
