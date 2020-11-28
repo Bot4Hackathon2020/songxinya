@@ -30,7 +30,13 @@
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "寄信",
+          "pathName": "miniprogram/pages/send_letter/send_letter",
+          "scene": null
+        }
+      ]
     }
   }
 }

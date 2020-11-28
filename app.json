@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "miniprogram/pages/send_letter/send_letter",
+    "miniprogram/pages/reseive_letter/reseive_letter"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "啦啦啦啦",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#f83c02",
+    "backgroundColor": "#d9d8d8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "miniprogram/pages/send_letter/send_letter",
+        "text": "寄信",
+        "iconPath": "/miniprogram/assets/image/tabbar/envolop-white.png",
+        "selectedIconPath": "/miniprogram/assets/image/tabbar/envolop-color.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/reseive_letter/reseive_letter",
+        "text": "收信",
+        "iconPath": "/miniprogram/assets/image/tabbar/mailbox-white.png",
+        "selectedIconPath": "/miniprogram/assets/image/tabbar/mailbox-color.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/reseive_letter/reseive_letter",
+        "text": "探索",
+        "iconPath": "/miniprogram/assets/image/tabbar/tansuo-white.png",
+        "selectedIconPath": "/miniprogram/assets/image/tabbar/tansuo-color.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/send_letter/send_letter",
+        "text": "我的",
+        "iconPath": "/miniprogram/assets/image/tabbar/user-white.png",
+        "selectedIconPath": "/miniprogram/assets/image/tabbar/user-color.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
