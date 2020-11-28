@@ -1,11 +1,15 @@
 {
   "description": "项目配置文件",
   "packOptions": {
-    "ignore": []
+    "ignore": [{
+      "type":"folder",
+      "value": "需求分析"
+    }]
   },
   "setting": {
     "enhance": true,
-    "urlCheck": false
+    "urlCheck": false,
+    "scopeDataCheck": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.14.0",
