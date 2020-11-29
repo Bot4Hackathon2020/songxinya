@@ -66,6 +66,12 @@
         {
           "name": "miniprogram/pages/signin/signin",
           "pathName": "miniprogram/pages/signin/signin",
+          "scene": null,
+          "query": ""
+        },
+        {
+          "name": "miniprogram/pages/explore/explore",
+          "pathName": "miniprogram/pages/explore/explore",
           "scene": null
         }
       ]
