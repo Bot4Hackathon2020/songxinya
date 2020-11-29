@@ -1,7 +1,7 @@
 <h1 align = "center">Hackathon比赛项目</h1>
 <h3 align = "center">——“送信鸭”小程序</h3>
 <p>
-    <img align ="center" src = "./demo_img/icon.png"/>
+    <img align ="center" src = "./成果展示/icon.png"/>
     <h3 align ="center">小程序头像</h3>
     这里是 Hackathon 2020参赛队伍私有仓库：
 </p>
@@ -41,9 +41,8 @@
 
 
 
-## 关于本仓库
-
-   	本仓库为本次比赛新建的临时仓库，后期在开发和维护“送信鸭”微信小程序时，将会移到别的仓库，不过您可以通过下方的链接到达我的<a href= "https://github.com/payiz-asj">GitHub主页 </a>
+## 关于本仓库  
+    本仓库为本次比赛新建的临时仓库，后期在开发和维护“送信鸭”微信小程序时，将会移到别的仓库，不过您可以通过下方的链接到达我的<a href= "https://github.com/payiz-asj">GitHub主页 </a>
 
 ## 关于本仓库   
 本仓库为本次比赛新建的临时仓库，后期在开发和维护“送信鸭”微信小程序时，将会移到别的仓库，不过您可以通过下方的链接到达我的<a href= "https://github.com/payiz-asj">GitHub主页 </a>
