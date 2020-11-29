@@ -2,9 +2,8 @@
 <h3 align = "center">——“送信鸭”小程序</h3>
 <p>
     <img align ="center" src = "./成果展示/icon.png"/>
-    <h3 align ="center">小程序头像</h3>
 </p>
-
+<h3 align ="center">小程序头像</h3>
 这里是 Hackathon 2020参赛队伍私有仓库：
 
 ## 队伍名：“觉醒吧，猎杀时刻！”
