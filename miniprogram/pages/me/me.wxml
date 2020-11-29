@@ -1,9 +1,18 @@
 <view class="header">
   <view class="user_box" bindtap='joinVip'>
-    <view class="logo">
+    <!-- <view class="logo">
       <image src="../../assets/image/me/youke.png"></image>
+    </view> -->
+    <view
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      class="userinfo-avatar"
+      style="background-image: url({{avatarUrl}})"
+      size="default"
+    />
+    <view class="userinfo-nickname">
+      <open-data type="userNickName" lang="zh_CN"></open-data>
     </view>
-    <text class='headname'>您是游客，想吃鸡腿请注册</text>
   </view>
   <view class="nav">
     <view class="item">
