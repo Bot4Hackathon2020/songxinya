@@ -48,6 +48,24 @@
         {
           "name": "我的",
           "pathName": "miniprogram/pages/me/me",
+          "scene": null,
+          "query": ""
+        },
+        {
+          "name": "miniprogram/pages/getpassword/getpassword",
+          "pathName": "miniprogram/pages/getpassword/getpassword",
+          "scene": null,
+          "query": ""
+        },
+        {
+          "name": "miniprogram/pages/signup/signup",
+          "pathName": "miniprogram/pages/signup/signup",
+          "scene": null,
+          "query": ""
+        },
+        {
+          "name": "miniprogram/pages/signin/signin",
+          "pathName": "miniprogram/pages/signin/signin",
           "scene": null
         }
       ]
