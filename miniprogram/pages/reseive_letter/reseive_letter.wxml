@@ -1,2 +1,5 @@
 <!--miniprogram/pages/reseive_letter/reseive_letter.wxml-->
-<text>miniprogram/pages/reseive_letter/reseive_letter.wxml</text>
+
+<view class='bg'>
+  <image class='bg-pic'  src='../../assets/image/me/labixiaoxin.jpg'></image>
+</view>

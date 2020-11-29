@@ -18,12 +18,12 @@ page{
   opacity:0.65;
   color:white;
 }
-.weather-wrapper{
+.bg{
   position:relative;
   padding-top: 174rpx;
   padding-bottom: 654rpx;
 }
-.weather-bg{
+.bg-pic{
    position: absolute;
    top:0;
    left:0;

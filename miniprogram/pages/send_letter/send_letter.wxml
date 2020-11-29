@@ -1,2 +1,6 @@
 <!--miniprogram/pages/send_letter/send_letter.wxml-->
-<text>miniprogram/pages/send_letter/send_letter.wxml</text>
+
+
+<view class='bg'>
+  <image class='bg-pic'  src='../../assets/image/me/peiqi.jpg'></image>
+</view>
