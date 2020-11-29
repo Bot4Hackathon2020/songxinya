@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="../../assets/image/me/songxinya.png" mode="aspectFit" class="logo"></image>
+  <view class="signTitle">送信鸭欢迎您</view>
+  <view class="whiteLine"></view>
+
+  <block>
+    <input type="number" bindinput="bindNumInput"  placeholder="请输入手机号" placeholder-class="ph" />
+    <input type="text" bindinput="bindPsdInput"  placeholder="请输入一个密码" placeholder-class="ph" password="true"/>
+  </block>
+  
+  <button class="loginBtn" bindtap="loginSubmit" plain="true" hover-class="btnHover">登录</button>
+  <a bindtap="register" class="info">注册</a>
+  <a bindtap="forget_password" class="info">忘记密码 ?</a>
+  <view class="footer">Copyright © 2020 payiz-asj</view>
+</view>
+
+<modal title="提示" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+  <view class="newAlert"> {{modelInnerHtml}} </view>
+</modal>
+
+<loading hidden="{{loadingHidden}}" bindchange="loadingChange">
+  加载中...
+</loading>
