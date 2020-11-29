@@ -1,2 +1,7 @@
 <!--miniprogram/pages/explore/explore.wxml-->
-<text>miniprogram/pages/explore/explore.wxml</text>
+
+<view class='bg'>
+  <view class="temp">12°</view>
+  <view class='weather'>晴天</view>
+  <image class='bg-pic'  src='../../assets/image/me/tansuo.jpg'></image>
+</view>
